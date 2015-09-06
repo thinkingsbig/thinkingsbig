@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+# Home page
+GET        /                                 controllers.Application.index()
+
+# Include other route files
+->         /user                 user.Routes
+->         /common               common.Routes
+->         /admin                admin.Routes
+
+GET    /*file    controllers.Assets.versioned(path="/public", file: Asset)
+
+GET    /webjars/*file        controllers.WebJarAssets.at(file)
