@@ -1,4 +1,4 @@
-name := """Thinking Bigs"""
+name := """ThinkingsBig"""
 
 version := "1.0"
 
