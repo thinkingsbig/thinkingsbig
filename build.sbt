@@ -1,6 +1,6 @@
 name := """Thinking Bigs"""
 
-version := "1.0-SNAPSHOT"
+version := "1.0"
 
 libraryDependencies ++= Seq(
   "org.webjars" %% "webjars-play" % "2.3.0",
