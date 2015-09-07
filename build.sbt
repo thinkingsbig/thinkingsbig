@@ -42,4 +42,4 @@ lazy val user = (project.in(file("modules/user")))
   .enablePlugins(PlayJava)
   .dependsOn(common)
 
-pipelineStages := Seq(rjs, digest, gzip)
+//pipelineStages := Seq(rjs, digest, gzip)
