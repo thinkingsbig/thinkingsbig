@@ -9,7 +9,8 @@ libraryDependencies ++= Seq(
   "org.webjars" % "angularjs" % "1.3.11" exclude("org.webjars", "jquery"),
   "org.webjars" % "bootstrap" % "3.3.2" exclude("org.webjars", "jquery"),
   "org.webjars" % "angular-bootstrap-datetimepicker" % "0.3.8",
-  "org.webjars" % "angular-translate" % "2.7.2"
+  "org.webjars" % "angular-translate" % "2.7.2",
+  "mysql" % "mysql-connector-java" % "5.1.27"
 )     
 
 // SCALA COMPILER OPTIONS
